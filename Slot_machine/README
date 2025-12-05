@@ -1,0 +1,112 @@
+🎰 Simple Slot Machine Game (Python)
+
+This project is a fun and interactive slot machine simulator written in Python.
+The player starts with a balance of $100 and can place bets to spin the slot machine. If all 3 symbols match, the player wins a payout based on the symbol type!
+
+This program demonstrates:
+
+Random selection
+
+Lists and loops
+
+Input validation
+
+Simple reward logic
+
+Basic game flow
+
+✨ Features
+🎮 Slot Machine Gameplay
+
+Player starts with $100
+
+Bet any positive amount (up to available balance)
+
+Machine spins and randomly picks 3 symbols:
+
+🍒
+
+🍉
+
+🍋
+
+🔔
+
+⭐
+
+🏆 Payout System
+
+Matching all three symbols gives payouts:
+
+Symbol	Payout (Multiplier)
+🍒	3× bet
+🍉	4× bet
+🍋	5× bet
+🔔	10× bet
+⭐	20× bet
+✔ Input Validation
+
+Ensures the bet is a number
+
+Bet must be positive
+
+Bet cannot exceed balance
+
+▶️ How to Play
+
+Run the script:
+
+python slot_machine.py
+
+
+Example flow:
+
+*************************
+ Welcome to Python Slots
+Symbols: 🍒 🍉 🍋 🔔 ⭐
+*************************
+Current balance: $100
+Enter your bet amount: $10
+Spinning...
+
+**************
+🍋 | ⭐ | 🍋
+**************
+You lost this bet!
+
+📂 File Structure
+slot-machine/
+│── slot_machine.py
+│── README.md
+
+🧠 How the Game Works
+
+Player enters a bet
+
+Program deducts the bet from balance
+
+Slot machine spins and displays 3 symbols
+
+Payout is calculated with get_payout()
+
+Balance is updated
+
+Game continues until balance reaches $0
+
+🛠 Requirements
+
+Python 3.x
+
+Uses only built-in modules (random, time)
+
+📘 Learning Concepts Demonstrated
+
+Random choice from lists
+
+Function design
+
+Game loops
+
+Input checking
+
+ASCII-style UI formatting
