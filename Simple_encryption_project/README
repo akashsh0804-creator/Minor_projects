@@ -1,0 +1,123 @@
+🔐 Simple Text Encryption & Decryption Tool (Python)
+
+This project is a beginner-friendly Python program that performs simple text encryption and decryption using a randomized substitution cipher.
+Every character typed by the user is replaced with a different character based on a shuffled key, making the encrypted message unreadable without the key.
+
+This tool demonstrates:
+
+Character mapping
+
+Basic cryptography concepts
+
+User interaction
+
+Randomized key generation
+
+✨ Features
+🔑 Random Key Generation
+
+The program builds a list of characters including:
+
+spaces
+
+punctuation
+
+digits
+
+lowercase + uppercase letters
+
+A shuffled version of this list acts as the cipher key
+
+🔐 Encryption
+
+Takes user input (plain text)
+
+Replaces each character with its mapped pair from the key
+
+Produces encrypted text that cannot be manually reversed without the key
+
+🔓 Decryption
+
+Takes encrypted text as input
+
+Uses the key to map each encrypted character back to its original character
+
+Outputs the decrypted (plain) text
+
+🧭 Interactive Menu
+
+The user can choose:
+
+Encrypt text
+
+Decrypt text
+
+Quit
+
+▶️ How to Use
+
+Run the script:
+
+python encryption_tool.py
+
+
+Sample menu:
+
+***** This is a simple encryption tool *****
+What do you wish to do?
+1. Encryption of a text
+2. Decryption of the text
+3. Quit the program
+Enter an option(1,2 or 3):
+
+
+Example encryption:
+
+Your Normal text was    : hello!
+Your Encrypted text is  : 4@Zm#
+
+
+Example decryption:
+
+Your Encrypted text was : 4@Zm#
+Your Decrypted text is  : hello!
+
+📂 File Structure
+encryption-tool/
+│── encryptor.py      # Main program
+│── README.md
+
+🧠 How It Works
+
+A character set is created (letters + digits + punctuation + space)
+
+A shuffled copy acts as the encryption key
+
+Encryption:
+plain_text[i] → key[index]
+
+Decryption:
+cipher_text[i] → chars[index]
+
+User interacts through a simple looped menu
+
+⚠ Note: Since the key is generated at runtime, encrypted text can only be decrypted within the same session.
+If the program is restarted, a new key is created, making old encrypted messages unreadable.
+
+🛠 Requirements
+
+Python 3.x
+
+Uses only built-in modules (random, string)
+
+📘 Learning Concepts Demonstrated
+
+Randomization
+
+Lists & indexing
+
+Substitution cipher basics
+
+Loops & functions
+
+User input handling
