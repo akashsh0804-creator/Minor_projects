@@ -1,4 +1,4 @@
-##📚 Learning Projects Repository
+📚 Learning Projects Repository
 
 Welcome to my learning projects repository!
 This collection contains a series of small, focused projects I’ve created while exploring new programming concepts, tools, and technologies. Each project represents a practical step in my learning process, helping me reinforce new ideas by building something tangible.
