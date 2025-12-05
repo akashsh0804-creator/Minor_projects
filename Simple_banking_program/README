@@ -1,0 +1,100 @@
+🏦 Simple Banking Program (Python)
+
+This project is a beginner-friendly Python program that simulates basic banking operations.
+Users can check their balance, deposit money, withdraw money, and exit the program.
+It demonstrates core programming concepts such as functions, conditionals, loops, input handling, and validation.
+
+✨ Features
+💰 Check Balance
+
+View the current account balance at any time.
+
+➕ Deposit Money
+
+Accepts positive deposit amounts
+
+Rejects invalid inputs (negative values)
+
+Returns the deposited amount which is added to the balance
+
+➖ Withdraw Money
+
+Accepts withdrawal amounts
+
+Ensures the withdrawal does not exceed the balance
+
+Rejects negative inputs
+
+Returns the withdrawn amount which is subtracted from the balance
+
+🔄 Menu-Driven Interface
+
+The user can choose from:
+
+Show balance
+
+Deposit money
+
+Withdraw money
+
+Exit the program
+
+📂 File Structure
+simple_banking/
+│── banking.py     # Main program
+│── README.md
+
+▶️ How to Run
+
+Run the script using:
+
+python banking.py
+
+
+Example menu:
+
+*******************
+  Banking program
+*******************
+1. Show Balance
+2. Deposit Money
+3. Withdraw Money
+4. Exit
+*******************
+Enter your choice (1-4):
+
+🧠 How the Program Works
+
+The program starts with a balance of $0.00
+
+User selects an action from the menu
+
+Appropriate function is called:
+
+show_balance(balance)
+
+deposit()
+
+withdraw(balance)
+
+The loop continues until the user selects Exit
+
+🛠 Requirements
+
+Python 3.x
+
+No external libraries needed
+
+📘 Learning Concepts Used
+
+Function definitions
+
+Return values
+
+Input validation
+
+Conditionals
+
+While loops
+
+Basic error prevention
