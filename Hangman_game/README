@@ -1,0 +1,96 @@
+🎮 Hangman Game (Python)
+
+A simple and fun Hangman game built in Python!
+The player must guess a hidden word (animal names in this version) before the hangman drawing is completed. Each wrong guess brings the player one step closer to losing!
+
+This project uses:
+
+Random word selection
+
+ASCII art for the hangman
+
+Input validation
+
+Game loop with win/lose detection
+
+✨ Features
+🔤 Random Word Generator
+
+The game randomly selects a word from a list of animal names stored in wordslist.py.
+
+🎨 ASCII Hangman Art
+
+The player sees the hangman progressively drawn after each wrong guess.
+
+✔ Input Validation
+
+Only single alphabet letters allowed
+
+Repeated guesses are blocked
+
+🏆 Win/Lose Conditions
+
+Win: all letters are guessed
+
+Lose: 6 wrong guesses (full hangman)
+
+📁 Project Structure
+📂 hangman-game
+ ├── hangman.py            # Main game
+ ├── wordslist.py          # Word list (animal names)
+ └── README.md
+
+▶️ How to Play
+
+Run the game:
+
+python hangman.py
+
+
+Example session:
+
+___________WELCOME TO HANGMAN GAME__________
+***************
+ o 
+/|\
+/ \
+***************
+_ _ _ _ _ _ _
+Enter your guess:
+
+🧠 How It Works
+
+The game picks a random word.
+
+A hint of underscores (_ _ _) is displayed.
+
+The player guesses letters one by one.
+
+Correct guesses fill in the hint.
+
+Wrong guesses draw more of the hangman.
+
+Game ends when:
+
+The word is fully revealed → You Win
+
+The hangman is complete → You Lose
+
+🛠 Requirements
+
+Python 3.x
+
+No external libraries required
+
+📌 Notes
+
+The word list includes 100+ animal names.
+
+The code uses sets to track guessed letters.
+
+ASCII art is stored in a dictionary for easy modification.
+
+📄 License
+
+Free to use, learn from, and modify.
+Perfect for beginners practicing Python loops, strings, lists, and conditionals.
